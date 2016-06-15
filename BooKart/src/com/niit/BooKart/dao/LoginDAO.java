@@ -8,6 +8,10 @@ public class LoginDAO
 			return true;
 	
 		}
+		else if (user.equals("ritzy")&&pwd.equals("1908"))
+		{
+			return true;
+		}
 		else
 			return false;
 	}
