@@ -1,0 +1,201 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>www.bookart.com/cookbooks</title>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+ <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Joti One&effect=shadow-multiple|3d-float">
+          
+   
+   <link href='https://fonts.googleapis.com/css?family=Nunito|Pacifico|Yesteryear|Oleo+Script+Swash+Caps' rel='stylesheet' type='text/css'>
+          
+<style >
+
+#footer{
+background-color:black;
+    
+    clear:both;
+   
+    padding:5px;
+    }
+#header {
+    background-color:yellow;
+    color:black;
+    text-align:left;
+    padding:5px;
+    font-family:Joti One;
+    font-effect:shadow-multiple|3d-float;
+}
+
+
+.searchbox
+{
+height:40px;
+width:360px;
+}
+
+#categories{
+    line-height:30px;
+    background-color:black;
+    height:1500px;
+    width:250px;
+    float:left;
+    padding:20px;
+    }
+ 
+
+
+#tabs{
+    width:1170px;
+    float:left;
+    padding:10px;
+}
+#section{
+width:1170px;
+float:left;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:20px;
+background-color:whitesmoke;
+}
+
+
+
+</style>
+
+</head>
+
+
+<body style="background-image:url(http://previews.123rf.com/images/natixa/natixa1010/natixa101000013/8008491-seamless-background-made-of-letters-on-the-white-paper-Stock-Vector.jpg)">
+
+<div id="header">
+<div class="font-effect-shadow-multiple">
+<h1 style="font-family: 'Joti One', cursive;">BooKart.com</h1><span style="font-size:22px;color:black;text-align:right;font-family: 'Pacifico', cursive;">For the Reader in You.</span></div>
+</div>
+
+<div id="categories">
+<p style="text-align:center;font-family:'Nunito';color:white;font-size:36px"><u>Categories</u></p><br>
+<table>
+ <tr><td style="text-align:center;font-family:'Nunito';font-size:24px"><a href="fiction.jsp" style="color:yellow" >Fiction</a></td></tr>
+ <tr><td style="color:black;">2</td></tr>
+<tr><td style="text-align:center;font-family:'Nunito';font-size:24px"><a href="nonfiction.jsp" style="color:yellow">Non-Fiction</a></td></tr>
+<tr><td style="color:black;">2</td></tr>
+<tr><td style="text-align:center;font-family:'Nunito';font-size:24px"><a href="kids.jsp" style="color:yellow">Kid's Section</a></td></tr>
+<tr><td style="color:black;">2</td></tr>
+<tr><td style="text-align:center;font-family:'Nunito';;font-size:24px"><a href="cookbooks.jsp" style="color:yellow">Cook Books</a></td></tr>
+</table>
+
+</div>
+
+<div id="tabs">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    
+   <ul class="nav navbar-nav navbar-right">
+        <li ><a href="signup.jsp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li ><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+         <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Orders<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">Non-Fiction</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Cooking books</a></li>
+          </ul>
+        </li>
+      </ul>
+    
+      <ul class="nav navbar-nav navbar-left">
+        <li ><a href="home.jsp">Home</a></li>
+         <li><a href="aboutus.jsp">About Us</a></li>
+        <li><a href="contactus.jsp">Contact Us</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+</div>
+
+<div id="section">
+
+<form action="home.jsp"  method="post"  height="5px" width="104px" >
+<table >
+<tr>
+<td style="font-family: 'Pacifico', cursive;color:black;font-size:20px;padding-right:3px">  Find Your Book Here:</td> <td style="padding-right:5px"><input style="color:grey;text-align:right;font-size:20px;font-family: 'Yesteryear', cursive;" type="search" name="search" placeholder="enter keyword  " class="searchbox"  /></td>
+<td style="padding-right:3px"><button type="button" class="btn btn-default">
+<span class="glyphicon glyphicon-search" style="font-size:25px"></span></button></td>
+</tr>
+</table>
+</form>
+   
+   <p style="color:whitesmoke">acd</p>
+  <p style="color:whitesmoke">lkj</p>  
+<h2 style="font-family: 'Oleo Script Swash Caps', cursive;">Collection of Stories</h2>   
+ <p style= "font-family: 'Nunito', sans-serif;" >Stories are adventurous and interesting ways to teach kids about good morals and right conduct.</p>
+   
+   
+<table>
+<tr>
+<td><a href="rb1.jsp"><img src="http://ecx.images-amazon.com/images/I/51hcjhHj68L._SX383_BO1,204,203,200_.jpg" alt="rb1" style="width:150px;height:300px" /></a></td>
+<td><a href="rb2.jsp"><img src="http://ecx.images-amazon.com/images/I/91j0WvwtwQL.jpg" alt="rb2" style="width:150px;height:300px" /></a></td>
+<td><a href="rb3.jsp"><img src="http://ecx.images-amazon.com/images/I/51b4RTijm7L._SX258_BO1,204,203,200_.jpg" alt="rb3" style="width:150px;height:300px" /></a></td>
+<td><a href="rb4.jsp"><img src="https://textbookcentre.com/media/catalog/product/cache/1/image/1200x/040ec09b1e35df139433887a97daa66f/2/0/2030312000399.jpg" alt="rb4" style="width:150px;height:300px" /></a></td>
+</table>
+<!-- 
+
+  <p style="color:whitesmoke">acd</p>
+  <p style="color:whitesmoke">lkj</p>
+  <h2 style="font-family: 'Oleo Script Swash Caps', cursive;">Activity Corner</h2>   
+ <p style= "font-family: 'Nunito', sans-serif;" >The Books that provide interactive fun and help in inculcating varied skills in kids.</p>
+   
+   
+-->
+
+<p style="color:whitesmoke">acd</p>
+  <p style="color:whitesmoke">lkj</p>
+
+<table>
+<tr>
+<td><a href="rb5.jsp"><img src="http://ecx.images-amazon.com/images/I/51mfsvAaFbL._SX374_BO1,204,203,200_.jpg" alt="rb5" style="width:150px;height:300px" /></a></td>
+<td><a href="rb6.jsp"><img src="http://www.tarladalal.com/products%5Cimages%5Ccb_300.jpg" alt="rb6" style="width:150px;height:300px" /></a></td>
+<td><a href="rb7.jsp"><img src="http://ecx.images-amazon.com/images/I/51M4R1RtN4L._SX374_BO1,204,203,200_.jpg" alt="rb7" style="width:150px;height:300px" /></a></td>
+<td><a href="rb8.jsp"><img src="http://wecdn.weearly.com/data/prod/books%20&%20media/others/cooking-books/2015/06/A-Chef-In-Every-Home-WEB9788184003529.jpg" alt="rb8" style="width:150px;height:300px" /></a></td>
+
+
+</table>
+
+ <p style="color:whitesmoke">acd</p>
+  <p style="color:whitesmoke">lkj</p>
+  </div>   
+    
+<div id="footer">
+ <p style="font-family:serif;font-size=30px;color:yellow;text-align: "center">2016 BooKart.com | Design and Development. All Rights Reserved.</p>
+  
+ </div>
+
+
+</body>
+
+
+</html>
