@@ -23,7 +23,7 @@ public class SupplierController {
 		
 		List<Supplier> supplierList = supplierDAO.getAllSuppliers();
 		
-		ModelAndView mv = new ModelAndView("/supplierList");
+		ModelAndView mv = new ModelAndView("/SupplierList");
 		mv.addObject("supplierList", supplierList);
 
 		return mv;

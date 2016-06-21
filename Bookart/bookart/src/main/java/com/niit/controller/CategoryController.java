@@ -22,7 +22,7 @@ public class CategoryController {
 	private CategoryDAO categoryDAO;
 	
 
-	@RequestMapping("/addCategory")
+	/*@RequestMapping("/addCategory")
 	public ModelAndView addCategory(@RequestParam(value = "categoryName") String categoryName,
 			@RequestParam(value = "categoryDescription") String categoryDescription) {
 
@@ -33,7 +33,7 @@ public class CategoryController {
 
 		return mv;
 	}
-	
+	*/
 	
 	
 	@RequestMapping("/getAllCategories")
@@ -43,14 +43,14 @@ public class CategoryController {
 		
 		List<Category> categoryList = categoryDAO.getAllCategories();
 		
-		ModelAndView mv = new ModelAndView("/categoryList");
+		ModelAndView mv = new ModelAndView("/CategoryList");
 		mv.addObject("categoryList", categoryList);
 
 		return mv;
 	}
 	
 	
-	@RequestMapping("/updateCategories")
+	/*@RequestMapping("/updateCategories")
 	public ModelAndView updateCategory(@ModelAttribute("category") ArrayList<Category> categories)
 	{
 		int count = categoryDAO.updateCategories(categories);
@@ -65,6 +65,6 @@ public class CategoryController {
 		mv.addObject("categoryList", categoryList);
 		
 		return mv;
-	}
+	}*/
 
 }
