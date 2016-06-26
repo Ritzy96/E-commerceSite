@@ -130,7 +130,7 @@ background-color:black;
     
       <ul class="nav navbar-nav navbar-left">
         <li class="active"><a href="home.jsp">Home</a></li>
-         <li><a href="aboutus.jsp">About Us</a></li>
+         <li><a href="AboutUsPage">About Us</a></li>
         <li><a href="contactus.jsp">Contact Us</a></li>
       </ul>
       
